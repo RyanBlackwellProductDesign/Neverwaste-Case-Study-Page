@@ -1,5 +1,6 @@
 .Text{
 ALIGN-ITEMS: center;
+padding: 0 10% 200px 10%
 }
 div {
     padding-bottom: 100px;
@@ -7,7 +8,7 @@ div {
 
 body {
     color: rgb(0, 0, 0);
-    font-size: 24px;
+    font-size: 30px;
   }
   
   h1 {
@@ -26,8 +27,20 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    ALIGN-ITEMS: center;
+    align-items: center;
     font-family: sans-serif;
+  }
+
+  #info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-family: sans-serif; 
+  }
+
+  img{
+   flex: 1
   }
 
 .Footer-tabs{
